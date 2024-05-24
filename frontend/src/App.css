@@ -1,0 +1,15 @@
+a.Completed{
+    background-color: green;
+    border: 2px solid darkgreen;
+
+}
+
+a.Open{
+    background-color: red;
+    border: 2px solid darkred;
+}
+
+a.progress{
+    background-color: orange;
+    border: 2px solid orangered;
+}
