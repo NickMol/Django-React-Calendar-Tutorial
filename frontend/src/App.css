@@ -13,3 +13,7 @@ a.progress{
     background-color: orange;
     border: 2px solid orangered;
 }
+
+.fc-event{
+    cursor: pointer;
+}
