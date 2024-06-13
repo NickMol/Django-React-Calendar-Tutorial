@@ -2,7 +2,7 @@ import './App.css'
 import Home from './components/Home'
 import About from './components/About'
 import Navbar from './components/Navbar'
-import {Routes, Route, useLocation} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import Calendar1 from './components/Calendar1'
 import Calendar2 from './components/Calendar2'
 import Calendar3 from './components/Calendar3'
@@ -10,6 +10,7 @@ import Calendar4 from './components/Calendar4'
 import Calendar5 from './components/Calendar5'
 import Calendar6 from './components/Calendar6'
 import Calendar7 from './components/Calendar7'
+import Calendar8 from './components/Calendar8'
 import EventDetails from './components/EventDetails'
 
 
@@ -27,6 +28,7 @@ function App() {
                     <Route path="/calendar5" element={<Calendar5/>}/>
                     <Route path="/calendar6" element={<Calendar6/>}/>
                     <Route path="/calendar7" element={<Calendar7/>}/>
+                    <Route path="/calendar8" element={<Calendar8/>}/>
                     <Route path="/eventdetails/:id" element={<EventDetails/>}/>
                     <Route path="/about" element={<About/>}/>
               </Routes>

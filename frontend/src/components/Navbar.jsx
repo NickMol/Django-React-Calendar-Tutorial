@@ -108,6 +108,16 @@ export default function Navbar(props) {
               </ListItem>
 
 
+              <ListItem key={8} disablePadding>
+                <ListItemButton component={Link} to="/calendar8" selected={"/calendar8" === path}>
+                  <ListItemIcon>
+                        <CalendarMonthIcon/> 
+                  </ListItemIcon>
+                  <ListItemText primary={"Calendar #8"} />
+                </ListItemButton>
+              </ListItem>
+
+
   
           </List>
          
