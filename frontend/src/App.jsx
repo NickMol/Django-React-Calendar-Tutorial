@@ -11,6 +11,7 @@ import Calendar5 from './components/Calendar5'
 import Calendar6 from './components/Calendar6'
 import Calendar7 from './components/Calendar7'
 import Calendar8 from './components/Calendar8'
+import Calendar9 from './components/Calendar9'
 import EventDetails from './components/EventDetails'
 
 
@@ -29,6 +30,7 @@ function App() {
                     <Route path="/calendar6" element={<Calendar6/>}/>
                     <Route path="/calendar7" element={<Calendar7/>}/>
                     <Route path="/calendar8" element={<Calendar8/>}/>
+                    <Route path="/calendar9" element={<Calendar9/>}/>
                     <Route path="/eventdetails/:id" element={<EventDetails/>}/>
                     <Route path="/about" element={<About/>}/>
               </Routes>
